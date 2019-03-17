@@ -12,6 +12,7 @@ import org.hibernate.annotations.NaturalId;
 
 import com.springboot.example.polls.model.audit.DateAudit;
 
+@SuppressWarnings("serial")
 @Entity
 @Table(name = "users", 
 		uniqueConstraints = {
